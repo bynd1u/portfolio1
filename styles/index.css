@@ -1,1 +1,378 @@
-@import url("./something.css");
+:root {
+    --primary-color: #FCEE09;
+    --secondary-color: #54c1e6;
+    --third-color: #39c4b6;
+}
+
+* {
+    margin: 0;
+    font-family: "blender-pro-book";
+    font-weight: 400;
+}
+
+body {
+    background-color: var(--primary-color);
+    overflow-x: hidden;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: var(--secondary-color)
+}
+
+h3 {
+    color: #54c1e6;
+    font-size: 36px;
+}
+
+hr {
+    border-top: 1px solid red;
+    width: 100%;
+    border-color: red;
+}
+
+img {
+    width: auto;
+    height: 100dvh;
+}
+
+i {
+    font-size: 50px;
+}
+
+.icon-red {
+    color: red;
+}
+
+
+
+nav {
+    box-sizing: border-box;
+    width: 100%;
+    position: fixed;
+    align-items: center; 
+    top: 0;
+    left: 0;
+    z-index: 1;
+    text-transform: uppercase;
+    background-color: hsla(0, 0%, 0%, 0.5);
+    padding: 1rem 1.75rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    backdrop-filter: blur(16px);
+    border-bottom: 2px solid yellow;
+}
+
+.nav-item {
+    margin-left: 2rem
+}
+
+.hamburger {
+    display: none;
+  }
+
+.bar {
+    background-color: #ffffff;
+    display: block;
+    width: 30px;
+    height: 4px;
+    margin: 6px auto;
+}
+
+
+
+section {
+    min-height: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.section-divider {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 48px;
+}
+
+
+.home {
+    font-size: large;
+    background-position: center;
+    background-size: cover;
+    font-size: 56px;
+    background: radial-gradient(circle at bottom, var(--primary-color), rgba(0, 0, 0, 0.145), rgb(0, 0, 0) 100%);
+    
+}
+
+.name {
+    color: #000000;
+    font-weight: bold;
+    font-size: 56px;
+}
+
+
+.about {
+    background: black;
+    color: white;
+    font-size: large;
+    color: var(--third-color);
+    padding-right: 25%;
+    padding-left: 25%;
+}
+
+.avatar {
+    width: 150px;
+    height: 150px;
+    border: 5px solid var(--secondary-color);
+    margin: 30px;
+}
+
+.social-media-icons {
+    font-size: 3rem;
+    gap: 20px;
+    display: flex;
+    margin-top: 30px;
+}
+
+
+
+.skills {
+    background: black;
+    flex-direction: column;
+    padding-bottom: 100px;
+}
+
+.skills1 {
+    margin-top: 20px;
+    display: flex;
+}
+
+.skills1 hr {
+    width: 1px;
+}
+
+.skills-items {
+    font-size: 3rem;
+    justify-content: center;
+    width: 50%;
+    padding-right: 20px;
+    padding-left: 20px;
+    max-width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+
+.skill-text {
+    display: flex;
+    padding-left: 20px;
+    padding-right: 40px;
+    width: 50%;
+    text-align: left;
+    color: var(--third-color);
+    max-width: 400px;
+    font-size: large;
+    position: relative;
+    
+}
+
+
+.portfolio {
+    padding-bottom: 120px;
+    
+}
+
+.portfolio-container {
+    margin-top: 50px;
+    display: flex;
+    gap: 60px 30px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.portfolio-item {   
+    background-color: blueviolet;
+    border: 4px solid black;
+    font-size: 36px;
+    width: calc(360*1.5px);
+    height: calc(200*1.5px);
+}
+
+.portfolio-item:hover {
+    border: 4px solid var(--secondary-color);
+    color: var(--secondary-color)
+}
+
+
+.portfolio-item img {
+    width: 540px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.portfolio h3 {
+    color: black;
+}
+
+
+.skills, .about, .portfolio, .home {
+    position: relative
+}
+
+
+.contact1 {
+    padding: 12px 24px 24px 24px;
+    margin: 48px 12px;
+    background:  black;
+    color: var(--third-color);
+    border-radius: 12px;
+}
+.contact1 h3 {
+    color: var(--secondary-color) !important;
+}
+
+.contact h3 {
+    color: black;
+}
+
+
+label {
+    font-size: 0.85em;
+    margin-left: 12px;
+}
+
+input[type=text],input[type=email], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #646613;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    background-color: #646613;
+    color: white;
+    font-size: large;
+    
+}
+
+input[type=submit] {
+    color: black;
+    background-color: #54c1e6;
+}
+
+textarea  {
+    background-color: #646613;
+    color: white;
+    font-size: large;
+}
+
+.submit-button {
+    text-align: center;
+    
+}
+
+
+footer {
+    border-top: 1px solid #000000;
+    box-shadow: 0px -2px 3px #000000;
+    text-align: center;
+    padding: 2rem;
+}
+
+@font-face {
+    font-family: "blender-pro-book";
+    src: url("https://res.cloudinary.com/ds6mbb3qr/raw/upload/v1730577198/blender-pro-book_h8fobm.otf") format("opentype");;
+}
+
+@media screen and (max-width: 1150px) and (min-width: 769px) {
+    .portfolio-item {
+        width: calc(360px);
+        height: calc(200px);
+        object-fit: cover;
+    }
+
+    .portfolio-item img {
+        width: calc(360px) !important;
+        height: calc(200px) !important;
+        object-fit: cover;
+    }
+    .portfolio {
+        
+        padding-bottom: 32px !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hamburger {
+        display: block !important;
+        margin: 0;
+        cursor: pointer;
+    }
+
+    ul {
+        background-color: hsl(0, 0%, 0%, 0.5);
+        flex-direction: column;
+        position: fixed;
+        left: 100%;
+        top: 5rem;
+        width: 100%;
+        text-align: center;
+        padding-left: 0;
+        
+      }
+
+      ul.active {
+        left: 0;
+    }
+
+    .nav-item {
+        margin: 2rem 0;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+    
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(10px) rotate(45deg);
+    }
+    
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-10px) rotate(-45deg);
+    }
+
+
+    .portfolio-item {
+        width: 360px !important;
+        height: 200px !important;
+        object-fit: cover;
+    }
+
+    .portfolio-item img {
+        width: 360px !important;
+        height: 200px !important;
+        object-fit: cover;
+    }
+    .portfolio {
+        
+        padding-bottom: 100px !important;
+    }
+
+   
+}
