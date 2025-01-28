@@ -49,12 +49,6 @@ create your own!
   > - _Given I visit the About section, when I click the download button, then
   >   the CV should download as a PDF._
 
-- [ ] **As a visitor**, I want a light/dark mode toggle so that I can switch the
-      theme based on my preference.
-
-  > - _Given I visit the site, when I toggle the theme, then the website should
-  >   switch between light and dark modes._
-
 - [ ] **As a visitor**, I want animations or transitions to make the site more
       engaging so that I have a better browsing experience.
 
