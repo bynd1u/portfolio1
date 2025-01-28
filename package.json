@@ -10,7 +10,8 @@
     "lint:md": "markdownlint --config ./.markdownlint.jsonc ./ ",
     "lint:css": "stylelint \"./**/*.css\"",
     "validate:html": "html-validate ./",
-    "accessibility": "achecker"
+    "accessibility": "achecker",
+    "check:all": "npm run format && format:check && npm run spell-check && npm run lint:ls && npm run lint:md && npm run lint:css && npm run validate:html && npm run accessibility"
   },
   "author": "DeNepo",
   "license": "MIT",

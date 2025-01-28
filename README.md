@@ -1,10 +1,19 @@
-# Name of project
+# Portfolio
 
-> A longer description
+- **Purpose**: A personal portfolio website to showcase professional skills,
+  projects, and achievements.
+- **Target Audience**: Potential employers, clients, or collaborators in the
+  tech industry.
+- **Key Features**:
+  - Modern, responsive design for optimal user experience on all devices.
+  - Clear navigation to highlight different aspects of the user's profile.
+  - Integrated contact form for direct communication.
+- **Motivation**: Developed to create a strong online presence, share work, and
+  demonstrate capabilities in web development.
 
 ## Table of contents
 
-- [Name of project](#name-of-project)
+- [Portfolio](#portfolio)
   - [Table of contents](#table-of-contents)
   - [General info](#general-info)
   - [Screenshots](#screenshots)
@@ -22,7 +31,8 @@
 
 ## General info
 
-> A short description
+The website is designed to showcase the user's professional skills, portfolio
+projects, and provide a means for visitors to contact the user
 
 ## Screenshots
 
@@ -33,8 +43,8 @@
 - Node 14.16.0
 - VSC code
 - JavaScript
-- ...
-- ...
+- CSS
+- HTML
 
 ## Setup
 
