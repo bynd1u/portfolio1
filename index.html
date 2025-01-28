@@ -1,176 +1,201 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/00e4c1fa09.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Portfolio</title>
 
-  <script src="https://kit.fontawesome.com/00e4c1fa09.js" crossorigin="anonymous"></script>
-  <title>Portfolio</title>
+    <link rel="stylesheet" href="./styles/index.css" />
+  </head>
 
-  <link rel="stylesheet" href="./styles/index.css" />
-</head>
+  <body>
+    <header>
+      <nav>
+        <a href="#home"><span class="home-item">Home</span></a>
+        <ul>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#skills" class="nav-link">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a href="#portfolio" class="nav-link">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+        </ul>
 
-<body>
-  <header>
-    <nav>
-      <a href="#home"><span class="home-item">Home</span></a>
-      <ul>
-        <li class="nav-item">
-          <a href="#about" class="nav-link">About</a>
-        </li>
-        <li class="nav-item">
-          <a href="#skills" class="nav-link">Skills</a>
-        </li>
-        <li class="nav-item">
-          <a href="#portfolio" class="nav-link">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a href="#contact" class="nav-link">Contact</a>
-        </li>
-      </ul>
-
-      <div class="hamburger" id="hamburger">
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
-      </div>
-    </nav>
-
-    <section class="home" id="home">
-      <p>
-        Hello! My name is <span class="name">Semen</span>. <br />
-        I am a <span class="name">web-developer</span> <br />
-        Let's build the <span class="name">future together</span><br />
-      </p>
-      <img class="section-divider"
-        src="https://res.cloudinary.com/ds6mbb3qr/image/upload/v1730576668/section-divider2_xn4egf.svg" alt="divider" />
-    </section>
-  </header>
-
-  <main>
-    <section class="about" id="about">
-      <h3>//.ABOUT_ME.//</h3>
-      <img class="avatar" id="avatar"
-        src="https://res.cloudinary.com/ds6mbb3qr/image/upload/v1730576668/avatar_qzyscf.jpg" alt="my-face" />
-      <p>
-        full-name: Semen Byndiu <br />
-        age: 21 <br />
-
-        prof-exp: game-dev <br />
-        occupation: studying
-      </p>
-      <div class="social-media-icons">
-        <a href="http://stackoverflow.com" aria-label="GitHub">
-          <i class="fa-brands fa-github icon-red"></i>
-        </a>
-        <a href="http://stackoverflow.com" aria-label="LinkedIn">
-          <i class="fa-brands fa-linkedin icon-red"></i>
-        </a>
-        <a href="http://stackoverflow.com" aria-label="Telegram">
-          <i class="fa-brands fa-telegram icon-red"></i>
-        </a>
-      </div>
-      <img class="section-divider"
-        src="https://res.cloudinary.com/ds6mbb3qr/image/upload/v1730576669/section-dividor1_miiso3.svg" alt="divider" />
-    </section>
-
-    <section class="portfolio" id="portfolio">
-      <h3>//.MY_PORTFOLIO.//</h3>
-      <div class="portfolio-container">
-        <div class="portfolio-item">
-          <a href="https://bynd1u.github.io/registration-form/">
-            <img src="https://res.cloudinary.com/ds6mbb3qr/image/upload/v1730576668/registration-form_vdbuzo.png"
-              alt="Registration Form Preview" />
-          </a>
-          <p>REGISTRATION_FORM</p>
+        <div class="hamburger" id="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
         </div>
-        <div class="portfolio-item">
-          <a href="https://bynd1u.github.io/balance-sheet/">
-            <img src="https://res.cloudinary.com/ds6mbb3qr/image/upload/v1730576668/balance-sheet_a2zlum.png"
-              alt="Balance Sheet Preview" />
-          </a>
-          <p>BALANCE_SHEET</p>
-        </div>
-        <div class="portfolio-item">
-          <a href="https://bynd1u.github.io/photo-gallery/">
-            <img src="https://res.cloudinary.com/ds6mbb3qr/image/upload/v1730576669/photo-gallery_j3ta53.png"
-              alt="Photo Gallery Preview" />
-          </a>
-          <p>GALLERY</p>
-        </div>
-        <div class="portfolio-item">
-          <a href="https://bynd1u.github.io/piano/">
-            <img src="https://res.cloudinary.com/ds6mbb3qr/image/upload/v1730576668/piano_wuviym.png"
-              alt="Piano Preview" />
-          </a>
-          <p>PIANO</p>
-        </div>
-      </div>
-      <img class="section-divider"
-        src="https://res.cloudinary.com/ds6mbb3qr/image/upload/v1730576668/section-divider2_xn4egf.svg" alt="divider" />
-    </section>
+      </nav>
 
-    <section class="skills" id="skills">
-      <h3>//.SKILLS.//</h3>
-      <div class="skills1">
-        <div class="skills-items">
-          <i class="fa-brands fa-js icon-red"></i>
-          <i class="fa-brands fa-css3-alt icon-red"></i>
-          <i class="fa-brands fa-html5 icon-red"></i>
-          <i class="fa-brands fa-github icon-red"></i>
-          <i class="fa-brands fa-unity icon-red"></i>
-          <i class="fa-brands fa-android icon-red"></i>
-          <i class="fa-brands fa-figma icon-red"></i>
-          <i class="fa-brands fa-trello icon-red"></i>
-          <i class="fa-brands fa-git-alt icon-red"></i>
-          <i class="fa-brands fa-apple icon-red"></i>
-        </div>
-        <hr />
-        <p class="skill-text">
-          I used to be a Unity developer for a while. Currently I want to try
-          my hand at web development. My goal is to try something new, expand
-          my skills and increase my job opportunities.<br /><br />
-
-          With a background in Unity game development, I've honed my skills in
-          creating interactive user interfaces, animations, and user
-          interactions. These skills are directly applicable to web
-          development, where I can build dynamic and engaging web pages and
-          applications. Additionally, my experience with Unity has provided me
-          with a strong foundation in programming and problem-solving, which
-          are essential for any developer.
+      <section class="home" id="home">
+        <p>
+          Hello! My name is <span class="name">Semen</span>. <br />
+          I am a <span class="name">web-developer</span> <br />
+          Let's build the <span class="name">future together</span><br />
         </p>
-      </div>
-      <img class="section-divider"
-        src="https://res.cloudinary.com/ds6mbb3qr/image/upload/v1730576669/section-divider3_gt9xsm.svg" alt="divider" />
-    </section>
+        <img
+          class="section-divider"
+          src="https://res.cloudinary.com/ds6mbb3qr/image/upload/v1730576668/section-divider2_xn4egf.svg"
+          alt="divider"
+        />
+      </section>
+    </header>
 
-    <section class="contact" id="contact">
-      <h3>.//CONTACT.//</h3>
-      <hr />
-      <div class="contact1">
-        <h3>.//CONTACT_ME//.</h3>
-        <form action="#">
-          <label for="full-name">Full Name</label>
-          <input name="full-name" type="text" />
-          <br />
-          <label for="email">Email</label>
-          <input name="email" type="email" />
-          <br />
-          <label for="message">Message</label>
-          <textarea name="message" cols="30" rows="10"></textarea>
-          <div class="submit-button">
-            <button type="submit">Submit</button>
+    <main>
+      <section class="about" id="about">
+        <h3>//.ABOUT_ME.//</h3>
+        <img
+          class="avatar"
+          id="avatar"
+          src="https://res.cloudinary.com/ds6mbb3qr/image/upload/v1730576668/avatar_qzyscf.jpg"
+          alt="my-face"
+        />
+        <p>
+          full-name: Semen Byndiu <br />
+          age: 21 <br />
+
+          prof-exp: game-dev <br />
+          occupation: studying
+        </p>
+        <div class="social-media-icons">
+          <a href="http://stackoverflow.com" aria-label="GitHub">
+            <i class="fa-brands fa-github icon-red"></i>
+          </a>
+          <a href="http://stackoverflow.com" aria-label="LinkedIn">
+            <i class="fa-brands fa-linkedin icon-red"></i>
+          </a>
+          <a href="http://stackoverflow.com" aria-label="Telegram">
+            <i class="fa-brands fa-telegram icon-red"></i>
+          </a>
+        </div>
+        <img
+          class="section-divider"
+          src="https://res.cloudinary.com/ds6mbb3qr/image/upload/v1730576669/section-dividor1_miiso3.svg"
+          alt="divider"
+        />
+      </section>
+
+      <section class="portfolio" id="portfolio">
+        <h3>//.MY_PORTFOLIO.//</h3>
+        <div class="portfolio-container">
+          <div class="portfolio-item">
+            <a href="https://bynd1u.github.io/registration-form/">
+              <img
+                src="https://res.cloudinary.com/ds6mbb3qr/image/upload/v1730576668/registration-form_vdbuzo.png"
+                alt="Registration Form Preview"
+              />
+            </a>
+            <p>REGISTRATION_FORM</p>
           </div>
-        </form>
-      </div>
-    </section>
-  </main>
+          <div class="portfolio-item">
+            <a href="https://bynd1u.github.io/balance-sheet/">
+              <img
+                src="https://res.cloudinary.com/ds6mbb3qr/image/upload/v1730576668/balance-sheet_a2zlum.png"
+                alt="Balance Sheet Preview"
+              />
+            </a>
+            <p>BALANCE_SHEET</p>
+          </div>
+          <div class="portfolio-item">
+            <a href="https://bynd1u.github.io/photo-gallery/">
+              <img
+                src="https://res.cloudinary.com/ds6mbb3qr/image/upload/v1730576669/photo-gallery_j3ta53.png"
+                alt="Photo Gallery Preview"
+              />
+            </a>
+            <p>GALLERY</p>
+          </div>
+          <div class="portfolio-item">
+            <a href="https://bynd1u.github.io/piano/">
+              <img
+                src="https://res.cloudinary.com/ds6mbb3qr/image/upload/v1730576668/piano_wuviym.png"
+                alt="Piano Preview"
+              />
+            </a>
+            <p>PIANO</p>
+          </div>
+        </div>
+        <img
+          class="section-divider"
+          src="https://res.cloudinary.com/ds6mbb3qr/image/upload/v1730576668/section-divider2_xn4egf.svg"
+          alt="divider"
+        />
+      </section>
 
-  <footer>"{me.say(goodJoke)}"</footer>
+      <section class="skills" id="skills">
+        <h3>//.SKILLS.//</h3>
+        <div class="skills1">
+          <div class="skills-items">
+            <i class="fa-brands fa-js icon-red"></i>
+            <i class="fa-brands fa-css3-alt icon-red"></i>
+            <i class="fa-brands fa-html5 icon-red"></i>
+            <i class="fa-brands fa-github icon-red"></i>
+            <i class="fa-brands fa-unity icon-red"></i>
+            <i class="fa-brands fa-android icon-red"></i>
+            <i class="fa-brands fa-figma icon-red"></i>
+            <i class="fa-brands fa-trello icon-red"></i>
+            <i class="fa-brands fa-git-alt icon-red"></i>
+            <i class="fa-brands fa-apple icon-red"></i>
+          </div>
+          <hr />
+          <p class="skill-text">
+            I used to be a Unity developer for a while. Currently I want to try
+            my hand at web development. My goal is to try something new, expand
+            my skills and increase my job opportunities.<br /><br />
 
-  <script src="app.js"></script>
-</body>
+            With a background in Unity game development, I've honed my skills in
+            creating interactive user interfaces, animations, and user
+            interactions. These skills are directly applicable to web
+            development, where I can build dynamic and engaging web pages and
+            applications. Additionally, my experience with Unity has provided me
+            with a strong foundation in programming and problem-solving, which
+            are essential for any developer.
+          </p>
+        </div>
+        <img
+          class="section-divider"
+          src="https://res.cloudinary.com/ds6mbb3qr/image/upload/v1730576669/section-divider3_gt9xsm.svg"
+          alt="divider"
+        />
+      </section>
 
+      <section class="contact" id="contact">
+        <h3>.//CONTACT.//</h3>
+        <hr />
+        <div class="contact1">
+          <h3>.//CONTACT_ME//.</h3>
+          <form action="#">
+            <label for="full-name">Full Name</label>
+            <input name="full-name" type="text" />
+            <br />
+            <label for="email">Email</label>
+            <input name="email" type="email" />
+            <br />
+            <label for="message">Message</label>
+            <textarea name="message" cols="30" rows="10"></textarea>
+            <div class="submit-button">
+              <button type="submit">Submit</button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>"{me.say(goodJoke)}"</footer>
+
+    <script src="app.js"></script>
+  </body>
 </html>
