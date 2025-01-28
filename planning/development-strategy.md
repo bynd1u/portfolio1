@@ -1,7 +1,7 @@
 # Development Strategy
 
-This document breaks down the development of the portfolio project into actionable
-user stories and tasks, categorized by priority levels.
+This document breaks down the development of the portfolio project into
+actionable user stories and tasks, categorized by priority levels.
 
 ---
 
@@ -33,7 +33,7 @@ user stories and tasks, categorized by priority levels.
 
 - **Logic**:
   - [ ] Create a portfolio section with project data (title, description, and
-  live demo links).
+        live demo links).
 - **Interface**:
   - [ ] Design project cards to display images, titles, and descriptions.
 - **Interaction**:
@@ -44,7 +44,7 @@ user stories and tasks, categorized by priority levels.
 ### User Story 3: Contact Form
 
 > **As a potential client**, I want to fill out a contact form so that I can
-reach out to the developer easily.
+> reach out to the developer easily.
 
 #### Tasks
 
@@ -62,7 +62,8 @@ reach out to the developer easily.
 
 ### User Story 4: Mobile-Friendly Design
 
-> **As a visitor**, I want the website to be mobile-friendly so that I can view it easily on my phone.
+> **As a visitor**, I want the website to be mobile-friendly so that I can view
+> it easily on my phone.
 
 #### Tasks
 
@@ -71,13 +72,15 @@ reach out to the developer easily.
 - **Interface**:
   - [ ] Test and optimize layout for mobile and tablet devices.
 - **Interaction**:
-  - [ ] Ensure all interactive elements (navigation, buttons) work seamlessly on touch devices.
+  - [ ] Ensure all interactive elements (navigation, buttons) work seamlessly on
+        touch devices.
 
 ---
 
 ### User Story 5: Technologies Used
 
-> **As a fellow developer**, I want to see the technologies used in each project so that I can evaluate the developer's technical skills.
+> **As a fellow developer**, I want to see the technologies used in each project
+> so that I can evaluate the developer's technical skills.
 
 #### Tasks
 
@@ -92,7 +95,8 @@ reach out to the developer easily.
 
 ### User Story 6: Downloadable CV
 
-> **As a visitor**, I want to download the developer's CV so that I can review their qualifications offline.
+> **As a visitor**, I want to download the developer's CV so that I can review
+> their qualifications offline.
 
 #### Tasks
 
@@ -113,8 +117,10 @@ reach out to the developer easily.
 #### Tasks
 
 - **Logic**:
-  - [ ] Identify key elements for animations (e.g., navigation, section transitions).
+  - [ ] Identify key elements for animations (e.g., navigation, section
+        transitions).
 - **Interface**:
-  - [ ] Add animations using CSS or JavaScript (e.g., fade-in effects, hover transitions).
+  - [ ] Add animations using CSS or JavaScript (e.g., fade-in effects, hover
+        transitions).
 - **Interaction**:
   - [ ] Test animations for performance on various devices.
