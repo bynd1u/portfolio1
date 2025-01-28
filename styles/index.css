@@ -274,6 +274,11 @@ textarea {
   font-size: large;
 }
 
+.active {
+  font-weight: bold;
+  color: red;
+}
+
 .submit-button {
   text-align: center;
 }
