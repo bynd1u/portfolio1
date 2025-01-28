@@ -1,32 +1,23 @@
 # Constraints
 
-Some boundaries around our project.
+Some boundaries around the project.
 
 ## External
 
-<!--
-  constraints coming from the outside that your team has no control over.
-  These may include:
-  - project deadlines
-  - UI design or color schemes
-  - technologies (sometimes a client will tell you what to use)
--->
+- **Deadline**: The project must be completed within 1 week.
+- **UI Design**: Must adhere to modern web design principles, including
+  responsiveness and accessibility.
+- **Technologies**: Utilize HTML, CSS, and JavaScript, as specified.
+- **Browser Compatibility**: The website must function properly on modern
+  browsers (Chrome, Firefox, Edge, Safari).
 
-## Internal: Involuntary
+## Internal
 
-<!--
-  constraints that come from within your team, and you have no control over.
-  They may include:
-  - each of your individual skill levels
-  - amount of time available to work on the project
--->
-
-## Internal: Voluntary
-
-<!--
-  constraints that your team decided on to help scope the project. they may include:
-  - coding style & conventions
-  - agree on a code review checklist for the project repository
-  - the number of hours you want to spend working
-  - only using the colors black and white
--->
+- **Team Size**: Limited resources; the project is being developed by a single
+  developer.
+- **Time Management**: Efficiently allocate time to ensure both functional and
+  aesthetic aspects are implemented within the deadline.
+- **Code Quality**: Follow best practices for clean, maintainable, and reusable
+  code, using tools for linting and formatting.
+- **Testing**: Perform manual and automated checks for accessibility,
+  responsiveness, and functionality.
