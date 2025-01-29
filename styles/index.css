@@ -10,6 +10,10 @@
   font-weight: 400;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: var(--primary-color);
   overflow-x: hidden;
@@ -28,6 +32,7 @@ a {
 
 a:hover {
   color: var(--secondary-color);
+  transition: color 0.3s ease;
 }
 
 h3 {
@@ -277,6 +282,7 @@ textarea {
 .active {
   font-weight: bold;
   color: red;
+  transition: color 0.3s ease, font-weight 0.3s ease;
 }
 
 .submit-button {
@@ -330,6 +336,7 @@ footer {
     width: 100%;
     text-align: center;
     padding-left: 0;
+    transition: left 0.3s ease;
   }
 
   ul.active {
