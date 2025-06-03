@@ -383,6 +383,12 @@ footer {
   animation-delay: 3s;
 }
 
+.skill-hover:hover {
+  color: #00bcd4; 
+  transform: scale(1.2);
+  transition: color 0.2s, transform 0.2s;
+}
+
 @media screen and (769 <= width <= 1150) {
   .portfolio-item {
     width: calc(360px);
