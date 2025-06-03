@@ -33,3 +33,10 @@ window.addEventListener("scroll", () => {
     }
   });
 });
+
+// document.addEventListener("DOMContentLoaded", () => {
+//   const lines = document.querySelectorAll(".line");
+//   lines.forEach((line, index) => {
+//     line.style.animationDelay = `${index * 2.5}s`;
+//   });
+// });

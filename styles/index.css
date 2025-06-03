@@ -1,3 +1,5 @@
+/* stylelint-disable keyframe-selector-notation */
+/* stylelint-disable rule-empty-line-before */
 :root {
   --primary-color: #fcee09;
   --secondary-color: #54c1e6;
@@ -8,6 +10,10 @@
   margin: 0;
   font-family: blender-pro-book, sans-serif;
   font-weight: 400;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
@@ -28,6 +34,7 @@ a {
 
 a:hover {
   color: var(--secondary-color);
+  transition: color 0.3s ease;
 }
 
 h3 {
@@ -277,6 +284,7 @@ textarea {
 .active {
   font-weight: bold;
   color: red;
+  transition: color 0.3s ease, font-weight 0.3s ease;
 }
 
 .submit-button {
@@ -294,6 +302,58 @@ footer {
   font-family: blender-pro-book;
   src: url("https://res.cloudinary.com/ds6mbb3qr/raw/upload/v1730577198/blender-pro-book_h8fobm.otf")
     format("opentype");
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes typing2 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 466.75px;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: black;
+  }
+  50% {
+    border-color: transparent;
+  }
+}
+
+.line {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  border-color: transparent;
+  width: 0;
+}
+
+#line1 {
+  animation: typing 1.5s steps(40, end) forwards, blink-caret 0.6s step-end 3;
+}
+
+#line2 {
+  animation: typing2 1.5s steps(40, end) forwards, blink-caret 0.6s step-end 3;
+  animation-delay: 1.5s;
+}
+
+#line3 {
+  animation: typing 1.5s steps(40, end) forwards,
+    blink-caret 0.6s step-end infinite;
+  animation-delay: 3s;
 }
 
 @media screen and (769 <= width <= 1150) {
@@ -330,6 +390,7 @@ footer {
     width: 100%;
     text-align: center;
     padding-left: 0;
+    transition: left 0.3s ease;
   }
 
   ul.active {
