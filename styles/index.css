@@ -460,5 +460,30 @@ footer {
 
   .portfolio {
     padding-bottom: 100px !important;
+
+    
+  }
+
+  .home {
+    font-size: 28px;
+    padding: 24px 8px;
+  }
+
+  .name {
+    font-size: 32px;
+  }
+
+  .intro-text {
+    font-size: 32px;
+    word-break: break-word;
+  }
+
+  @keyframes typing2 {
+    from {
+      width: 0;
+    }
+    to {
+      width: 280.75px;
+    }
   }
 }
