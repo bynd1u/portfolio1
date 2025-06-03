@@ -151,6 +151,16 @@ section {
   margin-top: 30px;
 }
 
+.social-media-icons a {
+  margin: 0 12px;
+  transition: transform 0.2s;
+}
+
+.social-media-icons a:hover {
+  transform: scale(1.2);
+  color: var(--secondary-color);
+}
+
 .skills {
   background: black;
   flex-direction: column;
@@ -289,6 +299,23 @@ textarea {
 
 .submit-button {
   text-align: center;
+}
+
+.submit-button button {
+  background-color: #e63946;    /* Red shade */
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 12px 32px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.submit-button button:hover {
+  background-color: #b71c2b;    /* Darker red on hover */
 }
 
 footer {
